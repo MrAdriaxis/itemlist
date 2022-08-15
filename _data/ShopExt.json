@@ -33,7 +33,7 @@
     {
       "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -49,7 +49,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Bloodlust",
@@ -61,13 +61,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "description": "Timmy is an exceptionally agreeable and giving person. he never insults others and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance. his agreeableness also makes him more likely to conform to prevailing opinions.",
       "stats": [
-
+        "x200% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
-        "abrasive",
-        "psychopath"
+        "grubiaństwo",
+        "psychopatia"
       ],
       "bypassLimit": false,
       "data": {
@@ -77,11 +77,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "abrasive",
-          "psychopath"
+          "grubiaństwo",
+          "psychopatia"
         ],
         "stats": [
-
+          "x200% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Kind",
@@ -95,7 +95,8 @@
     {
       "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed.",
+        "x50% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
 
@@ -111,7 +112,8 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed.",
+          "x50% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Psychopath",
@@ -125,7 +127,7 @@
     {
       "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -141,7 +143,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Cannibal",
@@ -155,7 +157,8 @@
     {
       "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
       "stats": [
-
+        "+3 walka wręcz",
+        "x50% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
 
@@ -171,7 +174,8 @@
 
         ],
         "stats": [
-
+          "+3 walka wręcz",
+          "x50% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Abrasive",
@@ -185,15 +189,16 @@
     {
       "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
       "stats": [
-        "+75% global learning factor",
-        "+12% mental break threshold"
+        "+75% szybkość nauki",
+        "+12% próg poziomu załamania",
+        "x50% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile",
-        "slowlearner"
+        "stalowenerwy",
+        "nerwynawodzy",
+        "nerwowość",
+        "nadwrażliwość",
+        "powolnanauka"
       ],
       "bypassLimit": false,
       "data": {
@@ -203,15 +208,16 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile",
-          "slowlearner"
+          "stalowenerwy",
+          "nerwynawodzy",
+          "nerwowość",
+          "nadwrażliwość",
+          "powolnanauka"
         ],
         "stats": [
-          "+75% global learning factor",
-          "+12% mental break threshold"
+          "+75% szybkość nauki",
+          "+12% próg poziomu załamania",
+          "x50% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "TooSmart",
@@ -225,15 +231,15 @@
     {
       "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
       "stats": [
-        "Shoot frenzy inspiration disabled.",
-        "+4 melee",
-        "-4 shooting",
-        "+4.0 melee hit chance"
+        "Szał strzelania inspiration disabled.",
+        "+4 walka wręcz",
+        "-4 strzelectwo",
+        "+4.0 szansa na trafienie wręcz"
       ],
       "conflicts": [
-        "carefulshooter",
-        "trigger-happy",
-        "wimp"
+        "ostrożnystrzelec",
+        "szybkipalec",
+        "tchórzliwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -243,15 +249,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "carefulshooter",
-          "trigger-happy",
-          "wimp"
+          "ostrożnystrzelec",
+          "szybkipalec",
+          "tchórzliwość"
         ],
         "stats": [
-          "Shoot frenzy inspiration disabled.",
-          "+4 melee",
-          "-4 shooting",
-          "+4.0 melee hit chance"
+          "Szał strzelania inspiration disabled.",
+          "+4 walka wręcz",
+          "-4 strzelectwo",
+          "+4.0 szansa na trafienie wręcz"
         ]
       },
       "defName": "Brawler",
@@ -265,10 +271,10 @@
     {
       "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
-
+        "tchórzliwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -278,10 +284,10 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-
+          "tchórzliwość"
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Masochist",
@@ -325,11 +331,12 @@
     {
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
       "stats": [
-
+        "x133% szybkość jedzenia",
+        "x150% ładowność"
       ],
       "conflicts": [
-        "ascetic",
-        "jealous"
+        "ascetyzm",
+        "zazdrość"
       ],
       "bypassLimit": false,
       "data": {
@@ -339,11 +346,12 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "jealous"
+          "ascetyzm",
+          "zazdrość"
         ],
         "stats": [
-
+          "x133% szybkość jedzenia",
+          "x150% ładowność"
         ]
       },
       "defName": "Greedy",
@@ -357,11 +365,14 @@
     {
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed.",
+        "+3 społeczne",
+        "x115% zdolność negocjacji",
+        "x115% negocjacja cen"
       ],
       "conflicts": [
-        "ascetic",
-        "greedy"
+        "ascetyzm",
+        "chciwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -371,11 +382,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "greedy"
+          "ascetyzm",
+          "chciwość"
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed.",
+          "+3 społeczne",
+          "x115% zdolność negocjacji",
+          "x115% negocjacja cen"
         ]
       },
       "defName": "Jealous",
@@ -387,14 +401,16 @@
       "degree": 0
     },
     {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
       "stats": [
-
+        "Artystyczny meditation focus type disabled.",
+        "Minimalny meditation focus type allowed.",
+        "x50% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
-        "greedy",
-        "jealous",
-        "gourmand"
+        "chciwość",
+        "zazdrość",
+        "łakomstwo"
       ],
       "bypassLimit": false,
       "data": {
@@ -404,12 +420,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "greedy",
-          "jealous",
-          "gourmand"
+          "chciwość",
+          "zazdrość",
+          "łakomstwo"
         ],
         "stats": [
-
+          "Artystyczny meditation focus type disabled.",
+          "Minimalny meditation focus type allowed.",
+          "x50% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Ascetic",
@@ -513,7 +531,8 @@
     {
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
       "stats": [
-
+        "x110% prędkość ruchu",
+        "x150% siła rekreacji"
       ],
       "conflicts": [
 
@@ -529,7 +548,8 @@
 
         ],
         "stats": [
-
+          "x110% prędkość ruchu",
+          "x150% siła rekreacji"
         ]
       },
       "defName": "AnnoyingVoice",
@@ -573,7 +593,9 @@
     {
       "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
       "stats": [
-        "Only mental break \"FireStartingSpree\" allowed."
+        "Płomienny meditation focus type allowed.",
+        "Only mental break \"FireStartingSpree\" allowed.",
+        "x115% Maks. komfortowa temperatura"
       ],
       "conflicts": [
 
@@ -589,7 +611,9 @@
 
         ],
         "stats": [
-          "Only mental break \"FireStartingSpree\" allowed."
+          "Płomienny meditation focus type allowed.",
+          "Only mental break \"FireStartingSpree\" allowed.",
+          "x115% Maks. komfortowa temperatura"
         ]
       },
       "defName": "Pyromaniac",
@@ -603,10 +627,14 @@
     {
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
       "stats": [
-        "-60% pain shock threshold"
+        "+3 medyczne",
+        "-60% próg szoku bólowego",
+        "x200% globalny współczynnik utraty pewności",
+        "x120% prędkość ruchu"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora",
+        "masochizm"
       ],
       "bypassLimit": false,
       "data": {
@@ -616,10 +644,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora",
+          "masochizm"
         ],
         "stats": [
-          "-60% pain shock threshold"
+          "+3 medyczne",
+          "-60% próg szoku bólowego",
+          "x200% globalny współczynnik utraty pewności",
+          "x120% prędkość ruchu"
         ]
       },
       "defName": "Wimp",
@@ -633,8 +665,8 @@
     {
       "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
       "stats": [
-        "+15.0 melee dodge chance",
-        "x10% trap spring chance"
+        "+15.0 szansa uniknięcia ciosu",
+        "x10% szansa na aktywację pułapki"
       ],
       "conflicts": [
 
@@ -650,8 +682,8 @@
 
         ],
         "stats": [
-          "+15.0 melee dodge chance",
-          "x10% trap spring chance"
+          "+15.0 szansa uniknięcia ciosu",
+          "x10% szansa na aktywację pułapki"
         ]
       },
       "defName": "Nimble",
@@ -665,7 +697,7 @@
     {
       "description": "Timmy has a knack for learning. he picks things up much faster than others.",
       "stats": [
-        "+75% global learning factor"
+        "+75% szybkość nauki"
       ],
       "conflicts": [
 
@@ -681,7 +713,7 @@
 
         ],
         "stats": [
-          "+75% global learning factor"
+          "+75% szybkość nauki"
         ]
       },
       "defName": "FastLearner",
@@ -695,10 +727,13 @@
     {
       "description": "Timmy is slow on the uptake. he learns much slower than others.",
       "stats": [
-        "-75% global learning factor"
+        "-75% szybkość nauki",
+        "x50% globalny współczynnik utraty pewności",
+        "x110% globalna szybkość pracy",
+        "x125% szybkość prac ogólnych"
       ],
       "conflicts": [
-        "toosmart"
+        "nadludzkamądrość"
       ],
       "bypassLimit": false,
       "data": {
@@ -708,10 +743,13 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "toosmart"
+          "nadludzkamądrość"
         ],
         "stats": [
-          "-75% global learning factor"
+          "-75% szybkość nauki",
+          "x50% globalny współczynnik utraty pewności",
+          "x110% globalna szybkość pracy",
+          "x125% szybkość prac ogólnych"
         ]
       },
       "defName": "SlowLearner",
@@ -725,7 +763,7 @@
     {
       "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -741,7 +779,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Undergrounder",
@@ -758,7 +796,7 @@
 
       ],
       "conflicts": [
-        "bodypurist"
+        "puryzmciała"
       ],
       "bypassLimit": false,
       "data": {
@@ -768,14 +806,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "bodypurist"
+          "puryzmciała"
         ],
         "stats": [
 
         ]
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "bodymodder",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -788,7 +826,7 @@
 
       ],
       "conflicts": [
-        "transhumanist"
+        "moderciała"
       ],
       "bypassLimit": false,
       "data": {
@@ -798,7 +836,7 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "transhumanist"
+          "moderciała"
         ],
         "stats": [
 
@@ -905,7 +943,7 @@
     {
       "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
       "stats": [
-        "x50% incoming damage multiplier"
+        "x50% mnożnik przychodzących obrażeń"
       ],
       "conflicts": [
 
@@ -921,7 +959,7 @@
 
         ],
         "stats": [
-          "x50% incoming damage multiplier"
+          "x50% mnożnik przychodzących obrażeń"
         ]
       },
       "defName": "Tough",
@@ -935,7 +973,14 @@
     {
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-
+        "Szalony chód inspiration disabled.",
+        "Szał strzelania inspiration disabled.",
+        "Inspiracja handlem inspiration disabled.",
+        "Inspiracja rekrutacją inspiration disabled.",
+        "Inspiracja chirurgią inspiration disabled.",
+        "Inspiracja oswajaniem inspiration disabled.",
+        "Morbidowy meditation focus type allowed.",
+        "+2 sztuka"
       ],
       "conflicts": [
 
@@ -951,7 +996,14 @@
 
         ],
         "stats": [
-
+          "Szalony chód inspiration disabled.",
+          "Szał strzelania inspiration disabled.",
+          "Inspiracja handlem inspiration disabled.",
+          "Inspiracja rekrutacją inspiration disabled.",
+          "Inspiracja chirurgią inspiration disabled.",
+          "Inspiracja oswajaniem inspiration disabled.",
+          "Morbidowy meditation focus type allowed.",
+          "+2 sztuka"
         ]
       },
       "defName": "TorturedArtist",
@@ -966,10 +1018,11 @@
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "+4 gotowanie",
+        "x75% szybkość jedzenia"
       ],
       "conflicts": [
-        "ascetic"
+        "ascetyzm"
       ],
       "bypassLimit": false,
       "data": {
@@ -979,11 +1032,12 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic"
+          "ascetyzm"
         ],
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
+          "+4 gotowanie",
+          "x75% szybkość jedzenia"
         ]
       },
       "defName": "Gourmand",
@@ -997,7 +1051,7 @@
     {
       "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
       "stats": [
-        "+50% rest rate multiplier"
+        "+50% mnożnik szybkości odpoczynku"
       ],
       "conflicts": [
 
@@ -1013,7 +1067,7 @@
 
         ],
         "stats": [
-          "+50% rest rate multiplier"
+          "+50% mnożnik szybkości odpoczynku"
         ]
       },
       "defName": "QuickSleeper",
@@ -1027,8 +1081,8 @@
     {
       "description": "Timmy is always falling behind the group whenever he goes anywhere.",
       "stats": [
-        "Go frenzy inspiration disabled.",
-        "-0.20 move speed"
+        "Szalony chód inspiration disabled.",
+        "-0.20 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1044,8 +1098,8 @@
 
         ],
         "stats": [
-          "Go frenzy inspiration disabled.",
-          "-0.20 move speed"
+          "Szalony chód inspiration disabled.",
+          "-0.20 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1059,7 +1113,7 @@
     {
       "description": "Timmy likes to be where he's going. he walks quicker than most people.",
       "stats": [
-        "+0.20 move speed"
+        "+0.20 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1075,7 +1129,7 @@
 
         ],
         "stats": [
-          "+0.20 move speed"
+          "+0.20 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1089,7 +1143,7 @@
     {
       "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
       "stats": [
-        "+0.40 move speed"
+        "+0.40 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1105,7 +1159,7 @@
 
         ],
         "stats": [
-          "+0.40 move speed"
+          "+0.40 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1119,7 +1173,8 @@
     {
       "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [
-
+        "+3 medyczne",
+        "+3 uprawa"
       ],
       "conflicts": [
 
@@ -1135,7 +1190,8 @@
 
         ],
         "stats": [
-
+          "+3 medyczne",
+          "+3 uprawa"
         ]
       },
       "defName": "DrugDesire",
@@ -1149,7 +1205,8 @@
     {
       "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [
-
+        "+1 medyczne",
+        "+1 uprawa"
       ],
       "conflicts": [
 
@@ -1165,7 +1222,8 @@
 
         ],
         "stats": [
-
+          "+1 medyczne",
+          "+1 uprawa"
         ]
       },
       "defName": "DrugDesire",
@@ -1179,8 +1237,8 @@
     {
       "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
       "stats": [
-        "Binging on drug mental state disabled.",
-        "Binging on drug mental state disabled."
+        "Obsesja używkowa mental state disabled.",
+        "Obsesja używkowa mental state disabled."
       ],
       "conflicts": [
 
@@ -1196,8 +1254,8 @@
 
         ],
         "stats": [
-          "Binging on drug mental state disabled.",
-          "Binging on drug mental state disabled."
+          "Obsesja używkowa mental state disabled.",
+          "Obsesja używkowa mental state disabled."
         ]
       },
       "defName": "DrugDesire",
@@ -1271,7 +1329,9 @@
     {
       "description": "Timmy tends to look on the bad side of life.",
       "stats": [
-
+        "+2 zwierzęce",
+        "x105% szansa oswojenia zwierzęcia",
+        "x110% szansa wytresowania zwierzęcia"
       ],
       "conflicts": [
 
@@ -1287,7 +1347,9 @@
 
         ],
         "stats": [
-
+          "+2 zwierzęce",
+          "x105% szansa oswojenia zwierzęcia",
+          "x110% szansa wytresowania zwierzęcia"
         ]
       },
       "defName": "NaturalMood",
@@ -1301,7 +1363,9 @@
     {
       "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
       "stats": [
-
+        "+3 zwierzęce",
+        "x110% szansa oswojenia zwierzęcia",
+        "x115% szansa wytresowania zwierzęcia"
       ],
       "conflicts": [
 
@@ -1317,7 +1381,9 @@
 
         ],
         "stats": [
-
+          "+3 zwierzęce",
+          "x110% szansa oswojenia zwierzęcia",
+          "x115% szansa wytresowania zwierzęcia"
         ]
       },
       "defName": "NaturalMood",
@@ -1331,7 +1397,8 @@
     {
       "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
       "stats": [
-        "-18% mental break threshold"
+        "-18% próg poziomu załamania",
+        "x25% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
 
@@ -1347,7 +1414,8 @@
 
         ],
         "stats": [
-          "-18% mental break threshold"
+          "-18% próg poziomu załamania",
+          "x25% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Nerves",
@@ -1361,7 +1429,8 @@
     {
       "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
       "stats": [
-        "-9% mental break threshold"
+        "-9% próg poziomu załamania",
+        "x50% globalny współczynnik utraty pewności"
       ],
       "conflicts": [
 
@@ -1377,7 +1446,8 @@
 
         ],
         "stats": [
-          "-9% mental break threshold"
+          "-9% próg poziomu załamania",
+          "x50% globalny współczynnik utraty pewności"
         ]
       },
       "defName": "Nerves",
@@ -1391,7 +1461,10 @@
     {
       "description": "Timmy tends to crack under pressure.",
       "stats": [
-        "+8% mental break threshold"
+        "+2 intelektualne",
+        "+8% próg poziomu załamania",
+        "x200% globalny współczynnik utraty pewności",
+        "x110% szybkość nauki"
       ],
       "conflicts": [
 
@@ -1407,7 +1480,10 @@
 
         ],
         "stats": [
-          "+8% mental break threshold"
+          "+2 intelektualne",
+          "+8% próg poziomu załamania",
+          "x200% globalny współczynnik utraty pewności",
+          "x110% szybkość nauki"
         ]
       },
       "defName": "Nerves",
@@ -1421,7 +1497,10 @@
     {
       "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
       "stats": [
-        "+15% mental break threshold"
+        "+3 intelektualne",
+        "+15% próg poziomu załamania",
+        "x300% globalny współczynnik utraty pewności",
+        "x115% szybkość nauki"
       ],
       "conflicts": [
 
@@ -1437,7 +1516,10 @@
 
         ],
         "stats": [
-          "+15% mental break threshold"
+          "+3 intelektualne",
+          "+15% próg poziomu załamania",
+          "x300% globalny współczynnik utraty pewności",
+          "x115% szybkość nauki"
         ]
       },
       "defName": "Nerves",
@@ -1451,8 +1533,8 @@
     {
       "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
       "stats": [
-        "+20% global work speed",
-        "+8% mental break threshold"
+        "+20% globalna szybkość pracy",
+        "+8% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1468,8 +1550,8 @@
 
         ],
         "stats": [
-          "+20% global work speed",
-          "+8% mental break threshold"
+          "+20% globalna szybkość pracy",
+          "+8% próg poziomu załamania"
         ]
       },
       "defName": "Neurotic",
@@ -1483,8 +1565,8 @@
     {
       "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
       "stats": [
-        "+40% global work speed",
-        "+14% mental break threshold"
+        "+40% globalna szybkość pracy",
+        "+14% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1500,8 +1582,8 @@
 
         ],
         "stats": [
-          "+40% global work speed",
-          "+14% mental break threshold"
+          "+40% globalna szybkość pracy",
+          "+14% próg poziomu załamania"
         ]
       },
       "defName": "Neurotic",
@@ -1515,7 +1597,7 @@
     {
       "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
       "stats": [
-        "+35% global work speed"
+        "+35% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1531,7 +1613,7 @@
 
         ],
         "stats": [
-          "+35% global work speed"
+          "+35% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1545,7 +1627,7 @@
     {
       "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
       "stats": [
-        "+20% global work speed"
+        "+20% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1561,7 +1643,7 @@
 
         ],
         "stats": [
-          "+20% global work speed"
+          "+20% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1575,7 +1657,8 @@
     {
       "description": "Timmy is a little bit lazy.",
       "stats": [
-        "-20% global work speed"
+        "-20% globalna szybkość pracy",
+        "x90% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1591,7 +1674,8 @@
 
         ],
         "stats": [
-          "-20% global work speed"
+          "-20% globalna szybkość pracy",
+          "x90% próg poziomu załamania"
         ]
       },
       "defName": "Industriousness",
@@ -1605,7 +1689,8 @@
     {
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
       "stats": [
-        "-35% global work speed"
+        "-35% globalna szybkość pracy",
+        "x80% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1621,7 +1706,8 @@
 
         ],
         "stats": [
-          "-35% global work speed"
+          "-35% globalna szybkość pracy",
+          "x80% próg poziomu załamania"
         ]
       },
       "defName": "Industriousness",
@@ -1635,7 +1721,7 @@
     {
       "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
       "stats": [
-        "+80% psychic sensitivity"
+        "+80% podatność PSI"
       ],
       "conflicts": [
 
@@ -1651,7 +1737,7 @@
 
         ],
         "stats": [
-          "+80% psychic sensitivity"
+          "+80% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1665,7 +1751,7 @@
     {
       "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
       "stats": [
-        "+40% psychic sensitivity"
+        "+40% podatność PSI"
       ],
       "conflicts": [
 
@@ -1681,7 +1767,7 @@
 
         ],
         "stats": [
-          "+40% psychic sensitivity"
+          "+40% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1695,7 +1781,7 @@
     {
       "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
       "stats": [
-        "-50% psychic sensitivity"
+        "-50% podatność PSI"
       ],
       "conflicts": [
 
@@ -1711,7 +1797,7 @@
 
         ],
         "stats": [
-          "-50% psychic sensitivity"
+          "-50% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1725,7 +1811,7 @@
     {
       "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
       "stats": [
-        "-100% psychic sensitivity"
+        "-100% podatność PSI"
       ],
       "conflicts": [
 
@@ -1741,7 +1827,7 @@
 
         ],
         "stats": [
-          "-100% psychic sensitivity"
+          "-100% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1755,11 +1841,11 @@
     {
       "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
       "stats": [
-        "+25% aiming time",
-        "+5.0 shooting accuracy"
+        "+25% czas celowania",
+        "+5.0 celność strzelania"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora"
       ],
       "bypassLimit": false,
       "data": {
@@ -1769,11 +1855,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora"
         ],
         "stats": [
-          "+25% aiming time",
-          "+5.0 shooting accuracy"
+          "+25% czas celowania",
+          "+5.0 celność strzelania"
         ]
       },
       "defName": "ShootingAccuracy",
@@ -1787,11 +1873,11 @@
     {
       "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
       "stats": [
-        "-50% aiming time",
-        "-5.0 shooting accuracy"
+        "-50% czas celowania",
+        "-5.0 celność strzelania"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora"
       ],
       "bypassLimit": false,
       "data": {
@@ -1801,11 +1887,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora"
         ],
         "stats": [
-          "-50% aiming time",
-          "-5.0 shooting accuracy"
+          "-50% czas celowania",
+          "-5.0 celność strzelania"
         ]
       },
       "defName": "ShootingAccuracy",
@@ -1819,7 +1905,7 @@
     {
       "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
       "stats": [
-        "+2.0 beauty"
+        "+2.0 piękno"
       ],
       "conflicts": [
 
@@ -1835,7 +1921,7 @@
 
         ],
         "stats": [
-          "+2.0 beauty"
+          "+2.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1849,7 +1935,7 @@
     {
       "description": "Timmy has a pretty face, which predisposes people to like him.",
       "stats": [
-        "+1.0 beauty"
+        "+1.0 piękno"
       ],
       "conflicts": [
 
@@ -1865,7 +1951,7 @@
 
         ],
         "stats": [
-          "+1.0 beauty"
+          "+1.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1879,7 +1965,9 @@
     {
       "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
       "stats": [
-        "-1.0 beauty"
+        "Inspiracja rekrutacją inspiration disabled.",
+        "-1.0 piękno",
+        "x110% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1895,7 +1983,9 @@
 
         ],
         "stats": [
-          "-1.0 beauty"
+          "Inspiracja rekrutacją inspiration disabled.",
+          "-1.0 piękno",
+          "x110% globalna szybkość pracy"
         ]
       },
       "defName": "Beauty",
@@ -1909,7 +1999,10 @@
     {
       "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
       "stats": [
-        "-2.0 beauty"
+        "Inspiracja handlem inspiration disabled.",
+        "Inspiracja rekrutacją inspiration disabled.",
+        "-2.0 piękno",
+        "x115% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1925,7 +2018,10 @@
 
         ],
         "stats": [
-          "-2.0 beauty"
+          "Inspiracja handlem inspiration disabled.",
+          "Inspiracja rekrutacją inspiration disabled.",
+          "-2.0 piękno",
+          "x115% globalna szybkość pracy"
         ]
       },
       "defName": "Beauty",
@@ -1939,7 +2035,7 @@
     {
       "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
       "stats": [
-        "+30% immunity gain speed"
+        "+30% szybkość wzrostu odporności"
       ],
       "conflicts": [
 
@@ -1955,7 +2051,7 @@
 
         ],
         "stats": [
-          "+30% immunity gain speed"
+          "+30% szybkość wzrostu odporności"
         ]
       },
       "defName": "Immunity",
@@ -1969,7 +2065,7 @@
     {
       "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
       "stats": [
-        "+4 medical"
+        "+4 medyczne"
       ],
       "conflicts": [
 
@@ -1985,7 +2081,7 @@
 
         ],
         "stats": [
-          "+4 medical"
+          "+4 medyczne"
         ]
       },
       "defName": "Immunity",
@@ -1995,6 +2091,280 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": -1
+    },
+    {
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophile",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1
+    },
+    {
+      "description": "Due to the limitations of this androids mind: they are only barely able to understand and feel emotion. This makes them less than desired in social situations.",
+      "stats": [
+        "Szał strzelania inspiration disabled.",
+        "Szał pracy inspiration disabled.",
+        "Szalony chód inspiration disabled.",
+        "Inspiracja handlem inspiration disabled.",
+        "Inspiracja rekrutacją inspiration disabled.",
+        "Inspiracja oswajaniem inspiration disabled.",
+        "Inspiracja chirurgią inspiration disabled.",
+        "Inspiracja sztuką inspiration disabled.",
+        "-90.00% wpływ na innych"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Android tiers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "Szał strzelania inspiration disabled.",
+          "Szał pracy inspiration disabled.",
+          "Szalony chód inspiration disabled.",
+          "Inspiracja handlem inspiration disabled.",
+          "Inspiracja rekrutacją inspiration disabled.",
+          "Inspiracja oswajaniem inspiration disabled.",
+          "Inspiracja chirurgią inspiration disabled.",
+          "Inspiracja sztuką inspiration disabled.",
+          "-90.00% wpływ na innych"
+        ]
+      },
+      "defName": "SimpleMindedAndroid",
+      "name": "simpleminded",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "A mechanized infantry unit, they do not think or feel.",
+      "stats": [
+        "-90.00% wpływ na innych"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Android tiers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "-90.00% wpływ na innych"
+        ]
+      },
+      "defName": "MechAtlas",
+      "name": "mech",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is intolerant of all lifeforms, whether they be mechanical or biological. There is always a chance they will randomly cause fights, especially when their mood is low.",
+      "stats": [
+        "Only mental break \"Berserk\" allowed.",
+        "Only mental break \"Slaughterer\" allowed.",
+        "Only mental break \"MurderousRage\" allowed.",
+        "Only mental break \"SadisticRage\" allowed.",
+        "Only mental break \"InsultingSpree\" allowed.",
+        "-90.00% wpływ na innych"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Android tiers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "Only mental break \"Berserk\" allowed.",
+          "Only mental break \"Slaughterer\" allowed.",
+          "Only mental break \"MurderousRage\" allowed.",
+          "Only mental break \"SadisticRage\" allowed.",
+          "Only mental break \"InsultingSpree\" allowed.",
+          "-90.00% wpływ na innych"
+        ]
+      },
+      "defName": "Intolerance",
+      "name": "intolerance",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a deep fondness toward all humans, seeing them as not only their own creators but as parental figures.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Android tiers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "FeelingsTowardHumanity",
+      "name": "loveshumanity",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy has a deep hatred toward all of humanity, seeing them as nothing more than egotistical meatbags.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Android tiers",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "FeelingsTowardHumanity",
+      "name": "hateshumanity",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 2
+    },
+    {
+      "description": "NAME is an robot. As a robot HE is a bit faster and not really sensible for psychic phenomena.",
+      "stats": [
+        "+0.10 prędkość ruchu",
+        "+20% globalna szybkość pracy",
+        "-100% podatność PSI",
+        "-95% podatność na toksyny",
+        "-90% próg poziomu załamania"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Misc. Robots",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+0.10 prędkość ruchu",
+          "+20% globalna szybkość pracy",
+          "-100% podatność PSI",
+          "-95% podatność na toksyny",
+          "-90% próg poziomu załamania"
+        ]
+      },
+      "defName": "AIRobot_BaseTrait",
+      "name": "robot",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
     }
   ],
   "races": [
@@ -2005,12 +2375,12 @@
           "+70% Flammability",
           "+$1750 Market value",
           "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+75 Leather amount",
           "+3 Honor value"
         ],
-        "mod": "RimWorld",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
@@ -2018,7 +2388,244 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "price": 2917
+      "price": 300
+    },
+    {
+      "data": {
+        "stats": [
+          "+450.00 Mass",
+          "+$18000 Market value",
+          "+4.80 Move speed",
+          "+0% Flammability",
+          "+0% Psychic sensitivity",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+5% Toxic sensitivity",
+          "+1% Mental break threshold",
+          "+200% Global learning factor",
+          "+180% Global work speed",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+10.00% Social impact",
+          "+65.0% Armor - Blunt",
+          "+80.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A form of mechanized infantry, produced during an ancient time on this rimworld. These units are very strong, powerful war machines but are subsequently slow and have limited battery to them.",
+      "defName": "M7Mech",
+      "enabled": true,
+      "name": "m7mechanisedinfantry",
+      "price": 30000
+    },
+    {
+      "data": {
+        "stats": [
+          "+450.00 Mass",
+          "+$18000 Market value",
+          "+4.80 Move speed",
+          "+0% Flammability",
+          "+0% Psychic sensitivity",
+          "-200.0C Minimum comfortable temperature",
+          "+200.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+5% Toxic sensitivity",
+          "+1% Mental break threshold",
+          "+200% Global learning factor",
+          "+180% Global work speed",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+10.00% Social impact",
+          "+65.0% Armor - Blunt",
+          "+80.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A prototype M7 mechanized infantry, equipped with a limited SkyCore unit and SkyMind radio. These units are very strong, powerful war machines and allow digital consciousness to move on battlefields but are subsequently slow and have limited internal storage capacity to them.",
+      "defName": "M8Mech",
+      "enabled": true,
+      "name": "m8mechanisedinfantry",
+      "price": 30000
+    },
+    {
+      "data": {
+        "stats": [
+          "+92.50 Mass",
+          "+0% Flammability",
+          "+$8000 Market value",
+          "+10.00 Move speed",
+          "+0% Psychic sensitivity",
+          "-80.0C Minimum comfortable temperature",
+          "+80.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+0% Toxic sensitivity",
+          "+15% Mental break threshold",
+          "+400% Global learning factor",
+          "+400% Global work speed",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+10.00% Social impact",
+          "+40.0% Armor - Blunt",
+          "+55.0% Armor - Sharp",
+          "+80% Butchery efficiency",
+          "+120% Medical surgery success chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A lost android, shunned from their transcendant community. The tech used to make them is beyond human comprehension, boasting near unlimited power and requiring little sustinence to operate. They deem all races other than themselves to be somewhat below them and believe that living on a rimworld is a fate worse than death.",
+      "defName": "Android5Tier",
+      "enabled": true,
+      "name": "t5android",
+      "price": 13333
+    },
+    {
+      "data": {
+        "stats": [
+          "+72.50 Mass",
+          "+25% Flammability",
+          "+$6000 Market value",
+          "+7.20 Move speed",
+          "+10% Psychic sensitivity",
+          "-70.0C Minimum comfortable temperature",
+          "+70.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+5% Toxic sensitivity",
+          "+30% Mental break threshold",
+          "+200% Global learning factor",
+          "+180% Global work speed",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+80.00% Social impact",
+          "+40.0% Armor - Blunt",
+          "+50.0% Armor - Sharp",
+          "+80% Butchery efficiency",
+          "+120% Medical surgery success chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The most advanced form of android conceivable; this tier is able to efficiently hold the consciousness of any AI uploaded onto it, with advanced locomotive abilities and manipulation; this android vastly suprasses most humans.",
+      "defName": "Android4Tier",
+      "enabled": true,
+      "name": "t4android",
+      "price": 10000
+    },
+    {
+      "data": {
+        "stats": [
+          "+92.50 Mass",
+          "+0% Flammability",
+          "+$4800 Market value",
+          "+5.00 Move speed",
+          "+15% Psychic sensitivity",
+          "-60.0C Minimum comfortable temperature",
+          "+60.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+10% Toxic sensitivity",
+          "+100% Global work speed",
+          "+20% Mental break threshold",
+          "+100% Global learning factor",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+90.00% Social impact",
+          "+30.0% Armor - Blunt",
+          "+40.0% Armor - Sharp",
+          "+100% Medical surgery success chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A Prototype android exclusive to this rimworld; developed by a secret R/D Laboratory, away from the eye of the rest of the planet and cosmos. This android features highly advanced locomotive and motor abilities, perfectly mimicing that of an average human. Although clunky and somewhat slow - this android features a modular component design, allowing for upgrades to be made to current parts at any point.",
+      "defName": "Android3Tier",
+      "enabled": true,
+      "name": "t3android",
+      "price": 8000
+    },
+    {
+      "data": {
+        "stats": [
+          "+32.50 Mass",
+          "+20% Flammability",
+          "+$1400 Market value",
+          "+3.00 Move speed",
+          "+30% Psychic sensitivity",
+          "-30.0C Minimum comfortable temperature",
+          "+35.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+30% Toxic sensitivity",
+          "+8% Mental break threshold",
+          "+80% Global learning factor",
+          "+55% Global work speed",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+70.00% Social impact",
+          "+10.0% Armor - Blunt",
+          "+15.0% Armor - Sharp",
+          "+40.00% Food poison chance",
+          "+60% Butchery efficiency",
+          "+40% Medical tend quality",
+          "+60% Medical surgery success chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "As simple as sentient robotics can get. This design is the bare skeletal amount of components needed to create full autonomous functionality. Obviously not the best but it works well when needed.",
+      "defName": "Android1Tier",
+      "enabled": true,
+      "name": "t1android",
+      "price": 2333
+    },
+    {
+      "data": {
+        "stats": [
+          "+62.50 Mass",
+          "+20% Flammability",
+          "+$2500 Market value",
+          "+4.50 Move speed",
+          "+20% Psychic sensitivity",
+          "-40.0C Minimum comfortable temperature",
+          "+40.0C Maximum comfortable temperature",
+          "+500% Pain shock threshold",
+          "+15% Toxic sensitivity",
+          "+80% Global work speed",
+          "+8% Mental break threshold",
+          "+90% Global learning factor",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+80.00% Social impact",
+          "+20.0% Armor - Blunt",
+          "+25.0% Armor - Sharp",
+          "+30.00% Food poison chance",
+          "+70% Butchery efficiency",
+          "+60% Medical tend quality",
+          "+80% Medical surgery success chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A somewhat advanced android, capable of almost perfectly storing an AI consciousness and with reasonable levels of motor skills. A good all round android that is uses extensively on glitterworlds for basic maintenance and cleaning.",
+      "defName": "Android2Tier",
+      "enabled": true,
+      "name": "t2android",
+      "price": 4167
     }
   ]
 }
