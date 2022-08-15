@@ -1,9 +1,9 @@
 # Tabs
-items_tab: 'Items'
-events_tab: 'Events'
-traits_tab: 'Traits'
-animals_tab: 'Animals'
-weapons_tab: 'Weapons'
+items_tab: 'Itemy'
+events_tab: 'Wydarzenia'
+traits_tab: 'Traity'
+animals_tab: 'Zwierzęta'
+weapons_tab: 'Bronie'
 pawn_kinds_tab: 'Pawn Kinds'
 
 # Table headers
