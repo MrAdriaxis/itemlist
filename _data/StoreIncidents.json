@@ -272,7 +272,7 @@
 	},
 	{
 		"abr": "reviveanypawn",
-		"price": 1200,
+		"price": 2000,
 		"karmatype": "Good"
 	},
 	{
@@ -317,7 +317,7 @@
 	},
 	{
 		"abr": "torytalkervote",
-		"price": 750,
+		"price": 2000,
 		"karmatype": "Neutral"
 	},
 	{
@@ -327,12 +327,12 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 22000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "reviveme",
-		"price": 2833,
+		"price": 2800,
 		"karmatype": "Good"
 	},
 	{
@@ -377,7 +377,7 @@
 	},
 	{
 		"abr": "passion",
-		"price": 7000,
+		"price": 5000,
 		"karmatype": "Good"
 	},
 	{
