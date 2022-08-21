@@ -7007,55 +7007,7 @@
       "category": "Skilltrainers",
       "defname": "Neurotrainer_Intellectual",
       "price": 2500
-    },
-    {
-      "abr": "replicator-prototyp",
-      "category": "Misc",
-      "defname": "ReplicatorPrototyp",
-      "price": 3308
-    },
-    {
-      "abr": "mountains-emiter",
-      "category": "Misc",
-      "defname": "MountainsEmiter",
-      "price": 2792
-    },
-    {
-      "abr": "tectonic-emiter",
-      "category": "Misc",
-      "defname": "TectonicEmiter",
-      "price": 492
-    },
-    {
-      "abr": "flora-emiter",
-      "category": "Misc",
-      "defname": "FloraEmiter",
-      "price": 2792
-    },
-    {
-      "abr": "mineral-emiter",
-      "category": "Misc",
-      "defname": "MineralEmiter",
-      "price": 2792
-    },
-    {
-      "abr": "rock-emiter",
-      "category": "Misc",
-      "defname": "RockEmiter",
-      "price": 2792
-    },
-    {
-      "abr": "terrain-emiter",
-      "category": "Misc",
-      "defname": "TerraEmiter",
-      "price": 2792
-    },
-    {
-      "abr": "weather-emiter",
-      "category": "Misc",
-      "defname": "WeatherEmiter",
-      "price": 2792
     }
   ],
-  "total": 1176
+  "total": 1168
 }
